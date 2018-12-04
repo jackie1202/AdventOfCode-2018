@@ -13,6 +13,7 @@ using namespace std;
 
 // updated solve from Jeffrey
 // create a table of (date, ID, time), fill the table according to the records.
+// state of the Guard can be represented by sequence 01 and OR  operation.
 
 // sort by time
 
