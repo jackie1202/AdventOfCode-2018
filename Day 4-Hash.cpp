@@ -48,7 +48,7 @@ void pre(string txt, map<string,string> &sorted)
 void fun(map<string,string> &sorted, map<string, vector<string>> &item)
 {
     string state, time, ID;
-    vector<int> period;
+    
     for(auto it = sorted.begin(); it != sorted.end(); ++it)
     {
         time = it->first;
