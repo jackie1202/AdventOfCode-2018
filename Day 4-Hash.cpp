@@ -11,6 +11,9 @@
 #include <iomanip>
 using namespace std;
 
+// updated solve from Jeffrey
+// create a table of (date, ID, time), fill the table according to the records.
+
 // sort by time
 
 void pre(string txt, map<string,string> &sorted)
