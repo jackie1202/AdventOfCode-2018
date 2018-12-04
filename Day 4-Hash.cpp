@@ -21,10 +21,8 @@ void pre(string txt, map<string,string> &sorted)
     string time;
     if(regex_search(txt, val, pattern))
     {
-        time += val[1];
-        time += val[2];
-        time += val[3];
-        time += val[4];
+        for(int i = 1; i <= 4; ++i)
+            time += val[i];
     }
     string others;
     if(txt.find("Guard") != string::npos)
