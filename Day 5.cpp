@@ -58,12 +58,6 @@ int main() {
     ifstream readFile("../input.txt");
     if(readFile.is_open()) cout << "ok" << endl;
 
-
-
-    map<string, vector<string>> item;
-    map<string,string> sorted;
-
-
     string txt, tmp;
     bool Flg = false;
     readFile >> txt;
